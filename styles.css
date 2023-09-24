@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1B3232;
+  }
+  
+  .profile-icon {
+    /* Estilos para o ícone de perfil no canto superior esquerdo */
+  }
+  
+  .feed {
+    /* Estilos para o contêiner do feed */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+      }
+  
+ /* ... Estilos anteriores ... */
+
+ .card {
+  border: 1px solid #ccc;
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  overflow: hidden; /* Para esconder a parte do conteúdo que fica fora do card */
+}
+
+.card img {
+  width: 100%; /* Ajusta a largura da imagem para 100% */
+  height: auto; /* Mantém a proporção da altura */
+  border-radius: 15px 15px 0 0;
+}
+
+.card-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  color: #fff; /* Para garantir que o texto seja legível em cima da imagem */
+  z-index: 1; /* Coloca o conteúdo sobre a imagem (z-index maior) */
+}
+
+.card-content h2 {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+.card-content h3 {
+  font-size: 1em;
+  margin: 10px;
+}
+
+  /* ... Estilos botão card ... */
+ 
+.card {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+
+.card .card-content {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-left: 10%;
+}
+
+.card .card-content h2,
+.card .card-content p {
+  margin: 0;
+  
+  color: #fff;
+  text-align: left;
+}
+/* ... Estilos anteriores ... */
+
+.card .card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+}
+.card .card-content h2 {
+  font-size: 1.2em; /* Reduzido o tamanho da fonte */
+  margin:30% 0 0 40% ;
+  color: #fff;
+  z-index: 1;
+}
+
+.card .card-content p {
+  font-size: 1em;
+  margin: 0% 0 0 40%; /* Ajuste a margem esquerda para mover o texto para a direita */
+  color: #fff;
+  z-index: 1;
+}
+
+/* ... Estilos anteriores ... */
+
+.card .participate-button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #199033;
+  color: #fff;
+  border: none;
+  border-radius: 0 0 15px 15px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.card .participate-button:hover {
+  background-color: #126424;
+}
+
+/* ... Estilos anteriores ... */
+
+.top-bar {
+  background-color: #132815;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-left i, .icon-right i {
+  color: white;
+  font-size: 24px;
+}
+
+.search-bar {
+  flex: 1; /* Ajusta o tamanho da barra de pesquisa para ocupar o espaço restante */
+  display: flex;
+  align-items: center;
+  margin: 0 10px; /* Margem para separação dos ícones */
+}
+
+.search-bar input {
+  flex: 1; /* Ajusta o tamanho do input para ocupar o espaço disponível */
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #195e20;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0d4d12;
+}
+
+/* ... Estilos anteriores ... */
+
+
+/* ... Estilos anteriores ... */
+
+.bottom-menu {
+  background-color: #132815; /* Cor de fundo do menu */
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999; /* Definindo um valor alto de z-index para ficar na frente de outros elementos */
+}
+
+.bottom-menu button {
+  border: none;
+  background: transparent; /* Fundo transparente */
+  color: white; /* Ícones e texto brancos */
+  font-size: 20px;
+}
+
+
+
+
+  
